@@ -1,6 +1,6 @@
-# Git Branch
+# Notes 
 
-## Notes 
+## Git Branch
 
 `git branch` sirve para enlazar 
 
@@ -32,3 +32,11 @@ Guarda los cambios del staging area
 Por default tenemos nuestro remote principal llamado *origin*
 
 - `git push`: Por default sube los cambios de nuestro branch al *upstream* bransh, la cual es la branch default para sincronizar cambios 
+
+Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especificar a que rama todo el tiempo
+
+```
+git push -u origin notes
+```
+
+Ahora nuestra rama local va a seguir otra rama distinta en el *remote*
