@@ -8,7 +8,7 @@
 - `git branch <rama>`: Crea una nueva rama
 - `git branch -D <rama>`: Elimina una rama 
 
-## Ggit checkout
+## Git checkout
 
 Git checkout sirve para intercambiar ramas o commits
 
